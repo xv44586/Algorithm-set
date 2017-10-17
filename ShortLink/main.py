@@ -13,7 +13,7 @@ class Convert(object):
     def convert_url_to_num(self):
         num = 0
         for index, c in enumerate(
-                reversed(self.url)):  # almost every url start with http:// or https,revere it to reduced confilict possibility
+                reversed(self.url)):  # almost every url start with http:// or https,revere it to reduce confilict possibility
             num += 3 ** index * ord(c)  # ord('0') = 48 ord('z') = 122 use 3 to avoid different url trans to same num
 
         return num
