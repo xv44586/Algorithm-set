@@ -58,4 +58,5 @@ log
 
 # vim
 *.swp
-
+Untitled*.ipynb
+.ipynb_checkpoints/

@@ -24,7 +24,7 @@ class Solution(object):
             if nums[i] > 0:
                 break
 
-            if i > 0 and nums[i] == nums[i - 1]:
+            if i > 0 and nums[i] == nums[i - 1]:  # tips: all 0
                 continue
 
             l = i + 1
